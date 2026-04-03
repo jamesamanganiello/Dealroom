@@ -139,10 +139,10 @@ export default function Sidebar() {
         <div className="border-t border-gray-200 pt-4 mt-3 px-2">
           <div className="flex items-center space-x-3">
             <div className="w-9 h-9 rounded-full bg-glean-blue text-white flex items-center justify-center text-xs font-bold flex-shrink-0">
-              JM
+              SC
             </div>
             <div className="min-w-0">
-              <p className="text-sm font-semibold text-gray-900 truncate">James Manganiello</p>
+              <p className="text-sm font-semibold text-gray-900 truncate">Sarah Chen</p>
               <p className="text-xs text-gray-500 truncate">Vice President · Healthcare M&A</p>
             </div>
           </div>

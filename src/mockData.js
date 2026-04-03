@@ -137,7 +137,7 @@ export const teamDirectory = [
 
 // Compliance & Ethical Wall data
 export const complianceProfile = {
-  user: 'James Manganiello',
+  user: 'Sarah Chen',
   clearanceLevel: 'Deal Team — Healthcare M&A',
   accessibleCIMs: 612,
   totalCIMs: 847,
@@ -185,16 +185,16 @@ export const ethicalWalls = [
 ]
 
 export const complianceAuditLog = [
-  { id: 1, timestamp: 'Mar 31, 2026 · 4:22 PM', action: 'CIM Access', detail: 'Viewed Meridian Healthcare Services CIM — Section: Financial Performance', status: 'cleared', user: 'James Manganiello' },
-  { id: 2, timestamp: 'Mar 31, 2026 · 3:15 PM', action: 'Export', detail: 'Exported TheraCare Solutions CIM (Draft v3) — watermark ID #TCS-2026-0892', status: 'cleared', user: 'James Manganiello' },
+  { id: 1, timestamp: 'Mar 31, 2026 · 4:22 PM', action: 'CIM Access', detail: 'Viewed Meridian Healthcare Services CIM — Section: Financial Performance', status: 'cleared', user: 'Sarah Chen' },
+  { id: 2, timestamp: 'Mar 31, 2026 · 3:15 PM', action: 'Export', detail: 'Exported TheraCare Solutions CIM (Draft v3) — watermark ID #TCS-2026-0892', status: 'cleared', user: 'Sarah Chen' },
   { id: 3, timestamp: 'Mar 31, 2026 · 2:48 PM', action: 'Wall Check', detail: 'Automated wall check passed for NovaCare Diagnostics deal creation', status: 'cleared', user: 'System' },
-  { id: 4, timestamp: 'Mar 31, 2026 · 1:30 PM', action: 'Access Denied', detail: 'Attempted access to DataStream Networks CIM — blocked by Wall #wall-3', status: 'blocked', user: 'James Manganiello' },
+  { id: 4, timestamp: 'Mar 31, 2026 · 1:30 PM', action: 'Access Denied', detail: 'Attempted access to DataStream Networks CIM — blocked by Wall #wall-3', status: 'blocked', user: 'Sarah Chen' },
   { id: 5, timestamp: 'Mar 30, 2026 · 11:05 AM', action: 'Collaborator Added', detail: 'Tom Martinez added to TheraCare Solutions deal room — wall check passed', status: 'cleared', user: 'Sarah Chen' },
   { id: 6, timestamp: 'Mar 30, 2026 · 9:22 AM', action: 'Wall Created', detail: 'New ethical wall established: DataStream / CloudBridge Separation', status: 'info', user: 'Rachel Kim' },
   { id: 7, timestamp: 'Mar 29, 2026 · 4:55 PM', action: 'NDA Verified', detail: 'External NDA verified for Michael Torres (CFO, TheraCare) — deal room access granted', status: 'cleared', user: 'System' },
-  { id: 8, timestamp: 'Mar 29, 2026 · 2:10 PM', action: 'CIM Access', detail: 'Viewed Apex Medical Group CIM — Section: Investment Highlights', status: 'cleared', user: 'James Manganiello' },
+  { id: 8, timestamp: 'Mar 29, 2026 · 2:10 PM', action: 'CIM Access', detail: 'Viewed Apex Medical Group CIM — Section: Investment Highlights', status: 'cleared', user: 'Sarah Chen' },
   { id: 9, timestamp: 'Mar 28, 2026 · 3:45 PM', action: 'Periodic Audit', detail: 'Quarterly access review completed — all clearances validated', status: 'cleared', user: 'System' },
-  { id: 10, timestamp: 'Mar 27, 2026 · 10:30 AM', action: 'Access Denied', detail: 'Attempted search for "Patriot Drilling" — blocked by Wall #wall-2', status: 'blocked', user: 'James Manganiello' },
+  { id: 10, timestamp: 'Mar 27, 2026 · 10:30 AM', action: 'Access Denied', detail: 'Attempted search for "Patriot Drilling" — blocked by Wall #wall-2', status: 'blocked', user: 'Sarah Chen' },
 ]
 
 // Restricted CIM IDs for the current user (derived from ethicalWalls)

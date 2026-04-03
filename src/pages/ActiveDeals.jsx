@@ -82,7 +82,7 @@ export default function ActiveDeals() {
         <div className="bg-white border-b border-gray-200 px-8 py-6 sticky top-0 z-10">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">Welcome back, James</h1>
+              <h1 className="text-3xl font-bold text-gray-900">Welcome back, Sarah</h1>
               <p className="text-gray-600 mt-1">{getDateString()}</p>
             </div>
             <Link

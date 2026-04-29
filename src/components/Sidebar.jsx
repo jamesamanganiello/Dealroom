@@ -37,7 +37,7 @@ export default function Sidebar() {
     <div className="w-64 bg-white border-r border-gray-200 h-screen flex flex-col">
       {/* Brand */}
       <div className="p-6 border-b border-gray-200">
-        <h1 className="text-xl font-bold text-glean-blue">Glean DealRoom</h1>
+        <h1 className="text-xl font-bold text-glean-blue">DealRoom</h1>
         <p className="text-xs text-gray-500 mt-1">Meridian Partners</p>
       </div>
 

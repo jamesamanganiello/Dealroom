@@ -602,7 +602,7 @@ export default function CIMReview() {
                   </div>
                   <div>
                     <h3 className="text-base font-bold text-gray-900">AI Implement</h3>
-                    <p className="text-xs text-gray-500">Powered by Glean Intelligence</p>
+                    <p className="text-xs text-gray-500">Powered by AI Intelligence</p>
                   </div>
                 </div>
                 <p className="text-sm text-gray-700 leading-relaxed mb-4">
